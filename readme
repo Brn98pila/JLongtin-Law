@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "url": "https://youtube.com/watch?v=SSWxwxmn12Y",
+      "originalUrl": "https://youtube.com/watch?v=SSWxwxmn12Y",
+      "width": 940,
+      "height": 528,
+      "thumbnailUrl": "https://i.ytimg.com/vi/SSWxwxmn12Y/hqdefault.jpg",
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FSSWxwxmn12Y%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSSWxwxmn12Y&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FSSWxwxmn12Y%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
+      "type": "video"
+    }
+  ],
+  "group": ""
+}
+
+CODIGO PARA VER VIDEOS DENTRO DE LA WEB

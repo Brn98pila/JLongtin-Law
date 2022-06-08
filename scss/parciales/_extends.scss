@@ -1,0 +1,10 @@
+//extend cajas
+
+%cajas{
+    background-color: $gris;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 25px;
+    margin: 1rem;
+}
