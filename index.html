@@ -35,52 +35,53 @@
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="#">NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Recursos</a>
+                <a class="nav-link" href="#">RECURSOS</a>
             </li>
               <li class="nav-item">
-                <a class="nav-link">Videos</a>
+                <a class="nav-link">VIDEOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Libros</a>
+                <a class="nav-link" href="#">LIBROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">BLOG</a>
               </li>
-              <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <button type="button" class="btn btn-dark">Dark</button>
-                    </a>
+              <li class="nav-item" id="li-none">
+                    <a href="#" class="nav-link">CONTACTO</a>
               </li>
             </ul>
            </div>
           
         </div>
+        <div class="nav-container-button">
+            <button id="nav-button">COMUNICATE CON NOSOTROS</button>
+        </div>
       </nav>
 </header>
 <main>
-    <div id="main-1">
-        <div id="img-perfil"></div>
-        <div id="main-1b">
+    <div id="main-1" class="row gy-2">
+        <div id="img-perfil" class="col-lg-4"></div>
+        <div id="main-1b" class="col-lg-7">
             <h5>USTED ESTA EN EL LUGAR CORRECTO</h5>
             <H1>Defensa Penal Compasiva</H1>
             <p>Los problemas de salud mental son una parte importante de muchos casos penales. En JLongtin Law, sabemos que todos merecen una defensa entusiasta, especialmente aquellos en un estado vulnerable debido a sus condiciones físicas o experiencias traumáticas pasadas.</p>
             <button type="button" class="btn">CONTACTANOS</button>
         </div>
     </div>
-    <div id="main-2">
-        <div id="main-2a">
+    <div id="main-2" class="row gy-3">
+        <div id="main-2a" class="col-lg-6">
             <h2>Conoce a nuestra mascota, Buddy the Buck</h2>
             <p>Hola a todos, les presento a la mascota de JLongtin Law, Buddy the Buck. Buddy es un miembro ingenioso de nuestro equipo y será su guía en el camino. Es el protector del bosque, por así decirlo, y un miembro valioso de nuestro equipo.
             </p>
             <p>Si necesita ayuda, puede encontrar un amigo en nuestra página de <b>Recursos.</b> Buddy estará allí para ayudarlo a encontrar cualquier información que necesite, programar una consulta o conectarlo con nuestro sistema de admisión de clientes.</p>
         </div>
-        <div id="main-2b">
+        <div id="main-2b" class="col-lg-6">
             <img src="../images/buck-alce.png" alt="">
         </div>
     </div>
@@ -91,13 +92,13 @@
         <img src="../images/img-cuerpo.jpeg" alt="abogada-cuerpo">
         <h3>No permita que el estigma le impida hacer valer una defensa de salud mental. Hable con su abogado sobre cómo su salud mental puede desempeñar un papel importante en su caso.</h3>
     </div>
-    <div id="main-4">
-        <div id="main-4a">
+    <div id="main-4" class="row gy-3">
+        <div id="main-4a" class="col-lg-6">
             <h4>"Esta es una lectura obligada para cualquier persona que se enfrente a una enfermedad mental y los tribunales".</h4>
             <button type="button" class="btn btn-info">NUESTRO LIBRO</button>
         </div>
-        <div id="main-4b">
-            <img id="book-img" src="../images/libro-portada.jpg" alt="">
+        <div id="main-4b" class="col-lg-6">
+            <img id="book-img" src="../images/libro-portada.jpg" alt="libro-venta">
         </div>
         <div id="main-4c">
             <span>NUESTRO BLOG</span>
@@ -106,29 +107,29 @@
     </div>
     
     <div id="main-5">
-        <div class="card">
+        <div class="card" id="card-01">
             <div>
-                <img src="" alt="">
+                <img src="../images/card-1.jpg" alt="hombre-sentado">
             </div>
-            <div>
+            <div class="card-content">
                 <p>Nuestros pensamientos</p>
                 <h6>Bien. Dificil. Trabajar.</h6>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="card-02">
             <div>
-                <img src="" alt="">
+                <img src="../images/card-2.jpg" alt="mujer-sentada">
             </div>
-            <div>
+            <div class="card-content">
                 <p>Salud mental</p>
                 <h6>Un sentido compartido de la humanidad.</h6>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="card-03">
             <div>
-                <img src="" alt="">
+                <img src="../images/card-3.jpg" alt="mujer-bw">
             </div>
-            <div>
+            <div class="card-content">
                 <p>Salud Mental</p>
                 <h6>Mitigación: compasión en la justicia penal.</h6>
             </div>
@@ -136,32 +137,32 @@
     </div>
 </main>
 <footer>
-    <img src="" alt="">
+    <img src="images/logo.png" alt="logo-footer">
     <h6>Defensa Penal Compasiva</h6>
     <ul class="redes">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" ></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a target="_blank" href="https://plus.google.com/111132806101684321866"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in" ></i></a></li>
     </ul>
     <ul class="footer-menu">
         <li>
-            <a href="">Hogar</a>
+            <a href="">HOGAR</a>
         </li>
         <li>
-            <a href="">Recursos</a>
+            <a href="">RECURSOS</a>
         </li>
         <li>
-            <a href="">Libros</a>
+            <a href="">LIBROS</a>
         </li>
         <li>
-            <a href="">Videos</a>
+            <a href="">VIDEOS</a>
         </li>
         <li>
-            <a href="">Blog</a>
+            <a href="">BLOG</a>
         </li>
     </ul>
-    <p>Derechos de autor: Bruno Silvestri 2022</p>
+    <span id="author">Derechos de autor: Bruno Silvestri 2022</span>
 </footer>
 
 

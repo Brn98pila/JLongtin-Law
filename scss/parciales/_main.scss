@@ -1,9 +1,38 @@
 html{
     font-family:'jost';
     font-size: 12px;
+    body{
+        background-color: $principal;
+    }
+   
+}
+//boostrap
+
+.navbar{
+    position:fixed;
+    width: 100%;
+    margin-top: 0 !important;
+    top: 0%;
+    z-index: 9;
+}
+.collapse{
+    margin-top: 25px;
+    background-color: #fff !important;
+    border: 1px solid rgb(228, 226, 226) !important;
+} 
+.nav-item{
+    padding-left: 15px;
+    a{
+        font-family: 'jost', sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+#nav-button{
+    display: none;
 }
 
-
+//MAIN
 #main-1{
     #img-perfil{
         background-image: url("../images/main-perfil.png");
@@ -133,7 +162,7 @@ html{
     }
     #main-4c{
         @extend %cajas;
-        background-color: #fff;
+        background-color: $principal;
         h2{
             font-family: 'garamond', sans-serif;
             font-size: 40px;
@@ -151,5 +180,45 @@ html{
 }
 
 #main-5{
-    
+    .card{
+        background-color: $gris;
+        margin: 0px 10px 0px 10px;
+        margin-bottom: 40px;
+        border: 0px;
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 0px;
+            img{
+                width: 300px;
+                height: auto;
+            }
+        }
+        .card-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0px 10px 20px 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: $gris-cartas;
+            p{
+                background-color: #000;
+                color: #fff;
+                font-family: 'jost';
+                padding: 3px 10px 3px 10px;
+                margin-left: 20px;
+                font-size: 14px;
+                text-align: left;
+            }
+            h6{
+                margin-left: 20px;
+                font-size: 22px;
+                
+            }
+        }
+    }
 }

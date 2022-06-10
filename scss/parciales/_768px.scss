@@ -1,0 +1,88 @@
+@media screen and (min-width: 768px){
+    .navbar-brand{
+        img{
+            width: 255px !important;
+            height: auto;
+        }
+    }
+    
+    #main-1{
+        #img-perfil{
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 870px !important;
+        }
+        #main-1b{
+            padding: 80px 40px 80px 40px;
+            h1{
+                font-size: 58px;
+                line-height: 60px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    #main-2{
+        #main-2a{
+            padding: 60px 80px;
+            h2{
+                font-size: 44px;
+            }
+        }
+        #main-2b{
+            img{
+                margin: 100px auto;
+            }
+        }
+        
+    }
+    #main-3{
+        margin: 25px;
+        img{
+            padding-top: 20px;
+            width: 357px;
+            height: 537px;
+        }
+        h3{
+            font-size: 36px;
+            line-height: 40px;
+            padding: 30px;
+            font-weight: 500;
+        }
+    }
+    #main-4{
+        margin-top: 100px;
+        #main-4a{
+            padding: 50px 100px;
+        }
+        #main-4b{
+            padding-bottom: 150px;
+            img{
+                width: 320px;
+                height: auto;
+                margin: 0 auto;
+            }
+        }
+        #main-4c{
+            padding: 100px 0px;
+            h2{
+                font-size: 58px;
+            }
+        }
+    }
+    #main-5{
+        .card{
+            margin: 0px 100px;
+            margin-bottom: 40px;
+            div img{
+                width: 100%;
+            }
+            .card-content{
+                padding-top: 40px;
+            }
+        }
+    }
+    
+}
+  
