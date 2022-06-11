@@ -29,7 +29,7 @@
     #nav-button{
         display: inherit;
         padding: 5px 15px;
-        margin-right: 20px;
+        margin-right: 15px;
         background-color: #2c2d36;
         color: #fff;
         font-size: 14px;
@@ -37,6 +37,93 @@
         font-weight: 500;
         border: 0px;
         }
+
+    .main-index{
+        #main-1{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 100px;
+            #img-perfil{
+                height: 600px !important;
+                margin: 40px 0px 0px 0px;
+            }
+            #main-1b{
+                padding-bottom: 10px;
+               h5{
+                padding-top: 100px;
+               }
+               button{
+                padding-bottom: 10px;
+                display: none;
+               }
+            }
+        }
+        #main-2{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 100px;
+            #main-2b{
+                margin:0px;
+                padding: 0px;
+            }
+        }
+        #main-3{
+            position: relative;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            margin: 0px;
+            img{
+                display: none;
+            }
+            h3{
+                z-index: 1;
+                padding-left: 40%;
+                text-align: left;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                top: 40px;
+                left: 100px;
+                right: 0;
+                bottom: 0;
+                background-image: url("../images/img-cuerpo.jpeg");
+                background-size: 40%;
+                background-repeat: no-repeat;
+                z-index: 0;
+
+
+                filter: brightness(45%) opacity(71%) contrast(80%);
+                -webkit-filter: brightness(45%) opacity(71%) contrast(80%);
+                -moz-filter: brightness(45%) opacity(71%) contrast(80%);
+            }
+           
+            
+        }
+        #main-4{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-gap: 20px;
+            grid-template-rows: auto auto;
+            grid-template-areas: 
+            "azul oranje"
+            "news news";
+            #main-4a{
+                grid-area: azul;
+                margin: 0%;
+            }
+            #main-4b{
+                grid-area: oranje;
+                margin: 0%;
+            }
+            #main-4c{
+                grid-area: news;
+                margin: 0;
+            }
+        }
+    }
     #main-5{
         display: grid;
         grid-gap: 10px;

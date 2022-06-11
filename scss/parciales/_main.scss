@@ -33,6 +33,10 @@ html{
 }
 
 //MAIN
+.container-lg{
+    --bs-gutter-x:0;
+}
+
 #main-1{
     #img-perfil{
         background-image: url("../images/main-perfil.png");
@@ -182,7 +186,7 @@ html{
 #main-5{
     .card{
         background-color: $gris;
-        margin: 0px 10px 0px 10px;
+        margin: 0px;
         margin-bottom: 40px;
         border: 0px;
         div{
